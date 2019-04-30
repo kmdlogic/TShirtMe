@@ -1,0 +1,18 @@
+
+
+  <div id="header" style="text-align:center">
+      <h1>
+        KMD Logic
+      </h1>
+  
+      <h2> Got Logic? Yeah you do.</h2>
+    </div>
+  
+<div>  
+  <p>Submit your phone number to claim a tshirt!</p>
+  <div><input   [(ngModel)]="phoneNumber" placeholder="+45_________" ></div>
+  <div><input   [(ngModel)]="code" placeholder="secret code" ></div>
+  <button (click)="submitEntry()">Enter</button>
+</div>
+
+<p class="">{{message}}</p>

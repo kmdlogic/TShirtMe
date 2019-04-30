@@ -1,0 +1,21 @@
+<div [hidden]="!CanCheckEntry()">
+  <div>
+    <h1>Enter an entry code to check</h1>
+  </div>
+
+
+  <input [(ngModel)]="entryCode">
+  <button (click)="CheckEntry()">Check</button>
+
+  <h1 [hidden]="!isReturned">
+    <span [hidden]="!isSuccess">CLAIM A SHIRT!</span>
+    <span [hidden]="isSuccess">Ohh this doesn't appear to be a valid code</span>
+  </h1>
+</div>
+
+<p [hidden]="!isError">{{message}}</p>
+
+
+<div [hidden]="CanCheckEntry()">
+  <p>You do not have the required roles to check an entry</p>
+</div>

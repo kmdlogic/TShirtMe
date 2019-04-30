@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+    background-color: #2196f3;
+    color:white;
+    font-size: 1em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 200;    
+    line-height: 1.5;    
+    letter-spacing: 0.01071em;    
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}   
+.wrapper{
+    width:50%;
+    padding-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#header{    
+    color: inherit;    
+    display: inline-block;            
+    display:block;
+    margin-left: auto;    
+    margin-right:auto;
+    margin-top:5%;   
+    width: 100%;
+}
+ul{    
+    margin-left: auto;
+    margin-right:auto;
+}
+li {
+    text-align: left;
+}
